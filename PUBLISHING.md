@@ -103,8 +103,8 @@ Files excluded (via .npmignore):
 
 ### Package name taken
 If "after-effects-versions" is already taken on npm, you can either:
-1. Use a scoped package: `@yourusername/after-effects-versions`
-   - Update package.json name to: `"@yourusername/after-effects-versions"`
+1. Use a scoped package: `@vigneshhhuuu/after-effects-versions`
+   - Update package.json name to: `"@vigneshhhuuu/after-effects-versions"`
 2. Choose a different name
 
 ### Permission denied
