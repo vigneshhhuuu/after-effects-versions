@@ -1,0 +1,41 @@
+{
+  "name": "after-effects-versions",
+  "version": "1.0.0",
+  "description": "Detect installed Adobe After Effects versions on macOS and Windows",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "node --test dist/index.test.js",
+    "pretest": "npm run build"
+  },
+  "keywords": [
+    "after-effects",
+    "adobe",
+    "version",
+    "detection",
+    "macos",
+    "windows"
+  ],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.d.ts",
+    "!dist/**/*.test.*",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/after-effects-versions.git"
+  }
+}
